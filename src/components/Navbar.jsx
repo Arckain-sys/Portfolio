@@ -1,6 +1,5 @@
 import logo from "../assets/LogoPort.png";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
-import { FaDiscord } from "react-icons/fa6";
 
 // TODO: turn these icons into functional button links
 

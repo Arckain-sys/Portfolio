@@ -26,7 +26,7 @@ const About = () => {
         transition={{ duration: 0.5 }}
         className="w-full lg:w-1/2">
           <div className="flex justify-center lg:justify-start">
-          <p className="my-2 max-w-xl py-6 ">
+          <p className="my-2 max-w-xl py-6 text-neutral-400">
               {ABOUT_TEXT.map((paragraph, index) => (
                 <React.Fragment key={index}>
                   {paragraph}
