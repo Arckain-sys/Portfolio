@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/Profile.png";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -34,7 +34,7 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Frontend Developer
+              Frontend Engineer
             </motion.span>
             <motion.p
               variants={container(1)}
@@ -53,7 +53,10 @@ const Hero = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
               src={profilePic}
+              width={550}
+              height={550}
               alt="Profile Picture"
+              className="rounded-2xl"
             />
           </div>
         </div>
