@@ -1,6 +1,7 @@
 import aboutImg from "../assets/about.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
+import React from "react";
 
 const About = () => {
   return (
@@ -25,8 +26,14 @@ const About = () => {
         transition={{ duration: 0.5 }}
         className="w-full lg:w-1/2">
           <div className="flex justify-center lg:justify-start">
-            <p className="my-2 max-w-xl py-6 ">
-              {ABOUT_TEXT}
+          <p className="my-2 max-w-xl py-6 ">
+              {ABOUT_TEXT.map((paragraph, index) => (
+                <React.Fragment key={index}>
+                  {paragraph}
+                  <br />
+                  <br />
+                </React.Fragment>
+              ))}
             </p>
           </div>
         </motion.div>
