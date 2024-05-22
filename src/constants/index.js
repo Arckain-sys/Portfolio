@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/IllapelFM.png";
 import project2 from "../assets/projects/CopyTube.png";
-import project3 from "../assets/projects/project-3.jpg";
+import project3 from "../assets/projects/Bikeecommerce.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `Developer with experience in frontend frameworks like React, React Native and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB.`;
@@ -42,7 +42,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "Commercial landing page for a radio station based in Illapel, Chile. Includes a radio player and a contact form.",
-    technologies: ["HTML", "CSS", "React", "Javascript", "Bootstrap"],
+    technologies: ["React", "Bootstrap"],
     github: "https://github.com/Arckain-sys/IllapelFM",
     liveSite: "https://illapelfm.netlify.app/"
   },
@@ -51,16 +51,18 @@ export const PROJECTS = [
     image: project2,
     description:
       "A clone of the popular YouTube web application, built with React, MaterialUI, and RapidAPI. Created to practice API integration and MaterialUI use.",
-    technologies: ["HTML", "CSS", "React", "Javascript", "MaterialUI"],
+    technologies: ["React", "Javascript", "MaterialUI"],
     github: "https://github.com/Arckain-sys/CopyTube",
     liveSite: "http://abelcopytube.netlify.app/",
   },
   {
-    title: "Mobile Cryptocurrency Tracking App",
+    title: "Yamaha Customs",
     image: project3,
     description:
-      "Mobile app for tracking cryptocurrency prices using React Native and TailwindCSS. Makes use of Coinbase's API to fetch asset prices.",
-    technologies: ["HTML", "CSS", "React Native", "TailwindCSS"],
+      "Small E-Commerce project created to test Swell's headless API.",
+    technologies: ["Next.js", "TailwindCSS", "Swell"],
+    github: "https://github.com/Arckain-sys/bike-ecommerce",
+    liveSite: "https://yamahacustoms.netlify.app/",
   },
   {
     title: "Blogging Platform",
