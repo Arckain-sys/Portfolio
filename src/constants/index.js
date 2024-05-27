@@ -1,12 +1,12 @@
 import project1 from "../assets/projects/IllapelFM.png";
 import project2 from "../assets/projects/CopyTube.png";
 import project3 from "../assets/projects/Bikeecommerce.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+// import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `Developer with experience in frontend frameworks like React, React Native and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB.`;
+export const HERO_CONTENT = `Developer with experience in frontend frameworks like React and Next.js, Tailwind CSS as well as back-end technologies like Node.js.`;
 
 export const ABOUT_TEXT = [
-  "I am a dedicated and versatile frontend developer with a passion for creating efficient and user-friendly web applications. With 2 years of professional experience, I have worked with a variety of technologies, including React, React Native, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB.",
+  "I am a dedicated and versatile frontend developer with a passion for creating efficient and user-friendly web applications. With 2 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, and Tailwind CSS.",
   "My journey in web development began with a deep curiosity for how web and mobile apps are made, and it has evolved into a career where I continuously strive to learn and adapt to new challenges.",
   "I thrive in collaborative environments where different skills and perspectives are brought together.",
   "Outside of programming, I enjoy playing music, driving my motorcycle, and spending time with my friends and family.",
@@ -64,13 +64,13 @@ export const PROJECTS = [
     github: "https://github.com/Arckain-sys/bike-ecommerce",
     liveSite: "https://yamahacustoms.netlify.app/",
   },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+  // {
+  //   title: "Blogging Platform",
+  //   image: project4,
+  //   description:
+  //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+  //   technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+  // },
 ];
 
 export const CONTACT = {
